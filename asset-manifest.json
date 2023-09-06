@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Crafti/static/css/main.515aef24.css",
+    "main.js": "/Crafti/static/js/main.6438098e.js",
+    "static/js/787.dc681047.chunk.js": "/Crafti/static/js/787.dc681047.chunk.js",
+    "static/media/gallery-4.jpg": "/Crafti/static/media/gallery-4.f4ee239ca9d178a00ae4.jpg",
+    "static/media/feature-banner.jpg": "/Crafti/static/media/feature-banner.908a2b8cd24b7ac1bcd1.jpg",
+    "static/media/gallery-1.jpg": "/Crafti/static/media/gallery-1.5b5bbd92f60ead545c3a.jpg",
+    "static/media/gallery-3.jpg": "/Crafti/static/media/gallery-3.40f079e8bf71687fb196.jpg",
+    "static/media/gallery-2.jpg": "/Crafti/static/media/gallery-2.0886f647d8b60e2450d4.jpg",
+    "static/media/blog-3.jpg": "/Crafti/static/media/blog-3.bba6c3f49d93670b2089.jpg",
+    "static/media/hero-banner-2.jpg": "/Crafti/static/media/hero-banner-2.83a3592fc533ed5d3b38.jpg",
+    "static/media/about-2.jpg": "/Crafti/static/media/about-2.12df26f968d57fed738f.jpg",
+    "static/media/blog-4.jpg": "/Crafti/static/media/blog-4.22c73f0e4c5d7ad01ec4.jpg",
+    "static/media/blog-2.jpg": "/Crafti/static/media/blog-2.b4bcea63f7cd184b7036.jpg",
+    "static/media/hero-banner-1.jpg": "/Crafti/static/media/hero-banner-1.c452b1207757c48bb625.jpg",
+    "static/media/blog-1.jpg": "/Crafti/static/media/blog-1.b00126520ce9ad4ec4ba.jpg",
+    "static/media/collection-3.jpg": "/Crafti/static/media/collection-3.1b9d13a786aa6702b21a.jpg",
+    "static/media/about-3.jpg": "/Crafti/static/media/about-3.e4773a3fcf201e5b6194.jpg",
+    "static/media/collection-1.jpg": "/Crafti/static/media/collection-1.1c185e08e868a8d0878d.jpg",
+    "static/media/collection-2.jpg": "/Crafti/static/media/collection-2.9f1bbd14f797f8a6d5ec.jpg",
+    "static/media/about-1.jpg": "/Crafti/static/media/about-1.e71e76e52404e4a910e1.jpg",
+    "static/media/feature-icon-1.svg": "/Crafti/static/media/feature-icon-1.1026792b49d1ef78bb096a9d842628ee.svg",
+    "static/media/feature-icon-3.svg": "/Crafti/static/media/feature-icon-3.4074dab44635eaf871fe6c89a3b0bc6a.svg",
+    "static/media/feature-icon-2.svg": "/Crafti/static/media/feature-icon-2.39097b1e8e2dd6347963c390ba5c7404.svg",
+    "index.html": "/Crafti/index.html",
+    "static/media/play.svg": "/Crafti/static/media/play.c546a0452e67b6fdebb149e22d04165e.svg",
+    "static/media/quote.svg": "/Crafti/static/media/quote.6fb223bc63470309eb122adedd2d5992.svg",
+    "main.515aef24.css.map": "/Crafti/static/css/main.515aef24.css.map",
+    "main.6438098e.js.map": "/Crafti/static/js/main.6438098e.js.map",
+    "787.dc681047.chunk.js.map": "/Crafti/static/js/787.dc681047.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.515aef24.css",
+    "static/js/main.6438098e.js"
+  ]
+}
