@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Rosario:wght@500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --H1: 55px;
+  --H2: 42px;
+  --H3: 25px;
+  --H4: 20px;
+  --H5: 18px;
+  --Paragraph: 14px;
+  --Cultured: hsla(0, 0%, 97%, 1);
+  --French-bistre: hsla(31, 17%, 44%, 1);
+  --Jet: hsla(0, 0%, 20%, 1);
+  --Bistre: hsla(35, 100%, 9%, 1);
+  --Bistre_a75: hsla(35, 100%, 9%, 0.75);
+  --Camel: hsla(30, 30%, 58%, 1);
+  --Umber: hsla(31, 17%, 36%, 1);
+  --Golden-brown_a60: hsla(35, 70%, 38%, 0.6);
+  --Granite-gray: hsla(0, 0%, 38%, 1);   
+  --White: hsla(0, 0%, 100%, 1);
+  --Black: hsla(0, 0%, 0%, 1);
+}
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+html ::-webkit-scrollbar {
+  width: 0.8rem;
+}
+html ::-webkit-scrollbar-thumb {
+  background-color: var(--Bistre);
+}
+html ::-webkit-scrollbar-track {
+  background-color: var(--White);
+}
+li {
+  list-style-type: none;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}

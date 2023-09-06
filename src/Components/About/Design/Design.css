@@ -1,0 +1,123 @@
+.Background {
+    background-color: var(--Bistre);
+    color: var(--White);
+    margin-bottom: 5rem;
+}
+.Design {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 8rem 0rem ;
+    width: 1100px;
+}
+.Design section:first-child {
+    width: 700px;
+}
+.Design section:first-child div {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+}
+.Craft {
+    font-family: 'Rosario', sans-serif;
+    font-size: var(--H2);
+    font-weight: 600;
+    margin-top: 1.5rem;
+    position: relative;
+    text-transform: capitalize;
+    top: 29.5rem;
+    left: -26rem;
+    width: 800px;
+}
+.Design section:last-child h2 {
+    font-family: 'Rosario', sans-serif;
+    font-size: var(--H2);
+    font-weight: 600;
+    margin-bottom: 1rem;
+    width: 350px;
+}
+.Design p {
+    color: var(--Cultured);
+    font-size: var(--Paragraph);
+    font-weight: 500;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+    width: 350px;
+}
+.Design button {
+    background-color: var(--French-bistre);
+    border: none;
+    border-radius: 25px 5px 25px 5px;
+    color: var(--White);
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding: 0.8rem 2rem;
+}
+.Design button:hover {
+    background-color: var(--Umber);
+}
+.About1 {
+    border-radius: 80px 80px 8px 8px;
+    margin-top: 9rem;
+    width: 420px;
+}
+.About2 {
+    border-radius: 15px 90px 8px 100px;
+    position: relative;
+    left: -16rem;
+    width: 300px;
+}
+.About3 {
+    border-radius: 8px 15px 80px 15px;
+    margin-top: 2rem;
+    position: relative;
+    left: -7rem;
+    width: 500px;
+}
+
+@media screen and (max-width:375px) {
+    .Design {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 1.5rem 1.5rem;
+        padding-bottom: 6.5rem;
+        width: 370px;
+    }
+    .Design section:first-child div {
+        display: flex;
+        flex-direction: column;
+        row-gap: 3.5rem;
+        width: 370px;
+    }
+    .Craft {
+        font-size: 35px;
+        position: relative;
+        top: -4.5rem;
+        left: 0.5rem;
+        width: 300px;
+    }
+    .About1 {
+        border-radius: 80px 80px 8px 8px;
+        margin-top: 2rem;
+        width: 300px;
+    }
+    .About2 {
+        border-radius: 15px 90px 8px 100px;
+        position: relative;
+        top: -7rem;
+        left: 0rem;
+        width: 300px;
+    }
+    .Design section:last-child  {
+        margin-top: -5.5rem;
+    }
+    .About3 {
+        border-radius: 8px 15px 80px 15px;
+        margin-top: 2rem;
+        position: relative;
+        left: 0rem;
+        width: 320px;
+    }
+}

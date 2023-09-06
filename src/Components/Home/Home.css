@@ -1,0 +1,98 @@
+.Home {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 5rem;
+    width: 1100px;
+}
+.Home h1 {
+    font-family: 'Rosario', sans-serif;
+    font-size: var(--H1);
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-transform: capitalize;
+}
+.Home span {
+    color: var(--French-bistre);
+}
+.Home p {
+    color: var(--Granite-gray);
+    font-size: var(--Paragraph);
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+    width: 500px;
+}
+.Home button {
+    background-color: var(--French-bistre);
+    border: none;
+    border-radius: 25px 5px 25px 5px;
+    color: var(--White);
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding: 0.8rem 2rem;
+}
+.Home button:hover {
+    background-color: var(--Umber);
+}
+.Home i {
+    margin-left: 0.5rem;
+}
+.Home section:last-child {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.5rem;
+}
+.Home01 {
+    border-radius: 120px 120px 8px 8px;
+    margin-top: 8rem;
+    width: 230px;
+}
+.Home02 {
+    border-radius: 120px 15px 40px 15px;
+    width: 300px;
+}
+
+@media screen and (max-width:375px) {
+    .Home {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        width: 375px;
+    }
+    .Home section:first-child {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .Home h1 {
+        font-family: 'Rosario', sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+        margin: auto;
+        margin-bottom: 1.5rem;
+        text-align: center;
+        text-transform: capitalize;
+        width: 300px;
+    }
+    .Home p {
+        color: var(--Granite-gray);
+        font-size: var(--Paragraph);
+        line-height: 1.5rem;
+        margin: auto;
+        margin-bottom: 2rem;
+        text-align: center;
+        width: 300px;
+    }
+    .Home section:last-child {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1.5rem;
+    }
+    .Home01 {
+        width: 300px;
+    }
+}

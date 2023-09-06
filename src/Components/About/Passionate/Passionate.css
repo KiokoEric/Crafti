@@ -1,0 +1,81 @@
+.Passionate {
+    display: flex;
+    flex-direction: row;
+}
+.Feature {
+    width: 700px;
+}
+.Play{
+    position: relative;
+    top: -20rem;
+    left: 10rem;
+    z-index: 2;
+}
+.Passionate section:last-child {
+    height: 1050px;
+    padding: 5rem 5rem;
+}
+.Passionate h2 {
+    font-family: 'Rosario', sans-serif;
+    font-size: var(--H2);
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+.Passionate p {
+    font-size: var(--Paragraph);
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.Passionate div {
+    margin-bottom: 2rem;
+}
+.Passionate section:last-child figure {
+    display: flex;
+    flex-direction: row;
+    height: 86px;
+    margin-bottom: 2rem;
+}
+.Passionate section:last-child img {
+    background-color: var(--Camel);
+    border-radius: 50px 4px 4px 4px;
+    margin-right: 1rem;
+    padding: 0.1rem 1.2rem;
+    width: 85px;
+}
+.Passionate h4 {
+    font-family: 'Rosario', sans-serif;
+    font-size: var(--H4);
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 0.6rem;
+}
+
+@media screen and (max-width:375px) {
+    .Passionate {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 375px;
+    }
+    .Passionate section:last-child {
+        height: 900px;
+        padding: 5rem 1.5rem;
+    }
+    .Passionate section:last-child figure  {
+        width: 300px;
+    }
+    .Feature {
+        margin-bottom: -7.2rem;
+        width: 375px;
+    }
+    .Passionate div {
+        margin-bottom: 4rem;
+    }
+    .Play{
+        position: relative;
+        top: -15rem;
+        left: 8.5rem;
+        width: 100px;
+        z-index: 2;
+    }
+}

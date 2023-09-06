@@ -1,0 +1,36 @@
+.Gallery {
+    color: var(--White);
+    display: flex;
+    flex-direction: row;
+}
+.Gallery img {
+    width: 360px;
+}
+.Gallery h3{
+    font-family: 'Rosario', sans-serif;
+    font-size: var(--H3);
+}
+.Top {
+    position: relative;
+    top: -27rem;
+    left: 2rem;
+}
+.Bottom {
+    font-size: var(--Paragraph);
+    position: relative;
+    top: -6rem;
+    left: 2rem;
+}
+
+@media screen and (max-width:375px) {
+    .Gallery {
+        display: flex;
+        flex-direction: column;
+    }
+    .Gallery figure {
+        margin-bottom: -3.8rem;
+    }
+    .Gallery img {
+        width: 375px;
+    }
+}
